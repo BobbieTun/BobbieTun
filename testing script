@@ -4,7 +4,10 @@ local tab = DrRayLibrary.newTab("My Tab", "ImageIdHere")
 
 tab.newToggle("Toggle", "Toggle! (prints the state)", false, function(esp)
     if esp then
-        local Players = game:GetService("Players"):GetChildren()
+        Esp = true
+        while true do
+            wait()
+            local Players = game:GetService("Players"):GetChildren()
     local RunService = game:GetService("RunService")
     local highlight = Instance.new("Highlight")
     highlight.Name = "Highlight"
@@ -47,9 +50,15 @@ tab.newToggle("Toggle", "Toggle! (prints the state)", false, function(esp)
             end
         end
         end)
+        end
+        
     else
+        Esp = false
         game.Players.PlayerRemoving:Connect(function(player)   
             player.Character:FindFirstChild("HumanoidRootPart").Highlight:Destroy()
+            v.Character:FindFirstChild("HumanoidRootPart").Highlight:Destroy()
+            player.Character:FindFirstChild("HumanoidRootPart").Highlight.Destroy()
+
     end)
 end
 end)
