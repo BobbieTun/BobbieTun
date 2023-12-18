@@ -54,12 +54,15 @@ tab.newToggle("Toggle", "Toggle! (prints the state)", false, function(esp)
         
     else
         Esp = false
-        game.Players.PlayerRemoving:Connect(function(player)   
-            player.Character:FindFirstChild("HumanoidRootPart").Highlight:Destroy()
-            v.Character:FindFirstChild("HumanoidRootPart").Highlight:Destroy()
-            player.Character:FindFirstChild("HumanoidRootPart").Highlight.Destroy()
-
-    end)
+        while false do
+            game.Players.Character:Connect(function(player)   
+                player.Character:FindFirstChild("HumanoidRootPart").Highlight:Destroy()
+                v.Character:FindFirstChild("HumanoidRootPart").Highlight:Destroy()
+                player.Character:FindFirstChild("HumanoidRootPart").Highlight.Destroy()
+            
+        end)
+  
+end
 end
 end)
 
