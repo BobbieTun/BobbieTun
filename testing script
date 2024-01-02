@@ -1,6 +1,11 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("7DeadlySins","Ocean")
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
+local Window = Library.CreateLib("7DeadlySins","Ocean")
+local UISection = Window:NewTab("Toggle UI")
+local Section1 = UISection:NewSection("ToggleUI")
+Section1:NewKeyBind("Toggle ui", "Toggle the UI ", Enum.KeyCode.F6, function()
+    Library:ToggleUI()
+end)
 --Main Idea From Bobbie--
 local Credit = Window:NewTab("Credit")
 
@@ -87,7 +92,3 @@ _7DS.MouseButton1Down:Connect(function()
 end)
 
 
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-Section1:NewKeyBind("Toggle ui", "Toggle the UI ", Enum.KeyCode.F6, function()
-    Library:ToggleUI()
-end)
