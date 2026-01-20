@@ -6,7 +6,7 @@
 - My major is Software Engineering, looking to collaaborate on small project to evolve my programming skills, logical thinking.
 - looking for help with learning about bypassing some anti cheat for LuaU.
 # My Personal account
-[!] Facebook : [Bobbie Tun] : (https://www.facebook.com/BobbieTun168206/)
+[!] Facebook :[[Bobbie Tun] : (https://www.facebook.com/BobbieTun168206/)]
 - fun fact: i like banana most, more than other fruits.
 
 <!--
