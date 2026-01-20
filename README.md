@@ -1,4 +1,13 @@
 ## Hi there 👋
+# Bobbie's here
+- I'm currently working on python tool / LuaU scripting.
+  + i have made 30-40 scripts for roblox,2 small project Python.
+- Also i'm learning more about bypassing, advanced python, LuaU, DLL injection.
+- My major is Software Engineering, looking to collaaborate on small project to evolve my programming skills, logical thinking.
+- looking for help with learning about bypassing some anti cheat for LuaU.
+# My Personal account
+[!] Facebook : [Bobbie Tun] : (https://www.facebook.com/BobbieTun168206/)
+- fun fact: i like banana most, more than other fruits.
 
 <!--
 **BobbieTun/BobbieTun** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
